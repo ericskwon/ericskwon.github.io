@@ -39,7 +39,7 @@ function loadFlashcards(data) {
 }
 
 function loadCardIndex(num) {
-    image.src = "../img/" + vocabList[chapter - 1].url[num];
+    image.src = "https://ericskwon.github.io/img/" + vocabList[chapter - 1].url[num];
     answer.innerText = vocabList[chapter - 1].terms[num];
     index = num;
     if (answer.classList.contains("show"))
